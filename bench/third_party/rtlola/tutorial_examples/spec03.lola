@@ -1,0 +1,20 @@
+import math
+constant meridian_length_in_meters: Float64 := 200003930.0
+constant equator_length_in_meters: Float64 := 40075014.0
+constant start_lon: Float64 := 0.0
+input lat: Float64
+input lon: Float64
+output sampled_lat @ 10Hz := lat.hold().defaults(to:0.0)
+output sampled_lon @ 10Hz := lon.hold().defaults(to:0.0)
+output sampled_lon_diff := sampled_lon
+  - sampled_lon.offset(by:-1s).defaults(to:sampled_lon)
+output sampled_lat_diff := sampled_lat
+  - sampled_lat.offset(by:-1s).defaults(to:sampled_lat)
+output sampled_lat_avg := (sampled_lat + sampled_lat.offset(by:-1s)
+  .defaults(to:sampled_lat))/2.0
+output sampled_lat_diff_m := meridian_length_in_meters / 180.0
+  * abs(sampled_lat_diff)
+output sampled_lon_diff_m := equator_length_in_meters / 360.0
+  * cos(sampled_lat_avg) * abs(sampled_lon_diff)
+output sampled_speed := sqrt(  sampled_lat_diff_m**2.0
+                             + sampled_lon_diff_m**2.0)

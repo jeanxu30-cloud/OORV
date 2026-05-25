@@ -1,0 +1,10 @@
+sweep	points	control_axis	control_range	median_latency_ms_range	median_throughput_range	repetitions
+Object sweep	12	Objects	1-48	0.011-18.559	53.883-89610.753	5
+Constraint sweep	12	Constraints	1-24	0.818-19.076	52.421-1222.230	5
+History sweep	10	History depth	0-20	4.828-4.909	203.714-207.126	5
+Periodic sweep	10	Periodic constraints	0-20	4.813-4.917	203.393-207.759	5
+Mixed history+periodic sweep	9	Mixed level	0-20	6.442-6.616	151.135-155.240	3
+Bursty trace sweep	6	Burst size	1-16	1.575-6.134	163.033-635.015	3
+Rotating hot-set sweep	6	Hot-set size	4-24	1.446-6.550	152.675-691.585	3
+Long-run soak sweep	8	Trace length	320-25600	0.738-1.690	591.818-1356.379	2
+Object x rule matrix	49	Objects x rules	4-40 x 2-20	0.054-40.542	24.665-18396.443	3

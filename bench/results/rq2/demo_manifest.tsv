@@ -1,0 +1,7 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note
+demo_object_001	1	4	500	500	0.007	0.003627	137854.977	none	NA	not_measured
+demo_object_010	10	4	500	500	1.810	0.905741	552.034	none	NA	not_measured
+demo_object_100	100	4	500	500	171.476	85.739808	5.832	none	NA	not_measured
+demo_constraint_001	50	1	500	500	NA	5.708435	87.590	none	NA	not_measured
+demo_constraint_004	50	4	500	500	46.599	23.301034	21.458	none	NA	not_measured
+demo_constraint_008	50	8	500	500	NA	45.651974	10.952	none	NA	not_measured

@@ -1,0 +1,21 @@
+import math
+input lat: Float64
+input lon: Float64
+constant meridian_length_in_meters: Float64 := 200003930.0
+constant equator_length_in_meters: Float64 := 40075014.0
+constant start_lon: Float64 := 0.0
+output lon_offset := lon.offset(by:-1).defaults(to:lon)
+output lat_diff := lat - lat.offset(by:-1).defaults(to:lat)
+output lon_diff @ lat := lon.hold().defaults(to:start_lon)
+  - lon_offset.hold().defaults(to:start_lon)
+output lat_avg := (lat + lat.offset(by:-1).defaults(to:lat))/2.0
+output lat_diff_m := meridian_length_in_meters / 180.0 * abs(lat_diff)
+output lon_diff_m := equator_length_in_meters / 360.0 * cos(lat_avg)
+  * abs(lon_diff)
+output distance_gps := sqrt(lat_diff_m**2.0 + lon_diff_m**2.0)
+
+input time : Float64
+output lat_timestamp @ lat := time.hold().defaults(to:0.0)
+output time_difference := lat_timestamp
+  - lat_timestamp.offset(by:-1).defaults(to:lat_timestamp-0.1)
+output speed := distance_gps / time_difference

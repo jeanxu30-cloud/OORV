@@ -1,0 +1,1284 @@
+warning: private item shadows public glob re-export
+  --> parser/src/parse.rs:2:48
+   |
+ 2 | use crate::diagnostic::{Diagnostic, OORVError, Span};
+   |                                                ^^^^
+   |
+note: the name `Span` in the type namespace is supposed to be publicly re-exported here
+  --> parser/src/parse.rs:14:9
+   |
+14 | pub use super::ast::*;
+   |         ^^^^^^^^^^^^^
+note: but the private item here shadows it
+  --> parser/src/parse.rs:2:48
+   |
+ 2 | use crate::diagnostic::{Diagnostic, OORVError, Span};
+   |                                                ^^^^
+   = note: `#[warn(hidden_glob_reexports)]` on by default
+
+warning: unused import: `std::collections::HashSet`
+   --> parser/src/parse.rs:601:13
+    |
+601 |         use std::collections::HashSet;
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::ast::conversion`
+ --> parser/src/ast/ast.rs:9:5
+  |
+9 | use crate::ast::conversion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::ast::print`
+  --> parser/src/ast/ast.rs:10:5
+   |
+10 | use crate::ast::print;
+   |     ^^^^^^^^^^^^^^^^^
+
+warning: unused doc comment
+   --> parser/src/ast/ast.rs:147:13
+    |
+147 |             ///tips
+    |             ^^^^^^^
+148 |             imports: Vec::new(),
+    |             ------------------- rustdoc does not generate documentation for expression fields
+    |
+    = help: use `//` for a plain comment
+    = note: `#[warn(unused_doc_comments)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused doc comment
+   --> parser/src/ast/ast.rs:153:13
+    |
+153 |             ///tips
+    |             ^^^^^^^
+154 |             classes: Vec::new(),
+    |             ------------------- rustdoc does not generate documentation for expression fields
+    |
+    = help: use `//` for a plain comment
+
+warning: unused import: `std::process::exit`
+ --> parser/src/hir/config.rs:3:5
+  |
+3 | use std::process::exit;
+  |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `Diagnostic` and `Handler`
+ --> parser/src/hir/config.rs:7:25
+  |
+7 | use crate::diagnostic::{Diagnostic, OORVError,Handler};
+  |                         ^^^^^^^^^^            ^^^^^^^
+
+warning: unused import: `std::process::exit`
+ --> parser/src/hir/modes/ast_conversion.rs:5:5
+  |
+5 | use std::process::exit;
+  |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `print`
+  --> parser/src/hir/modes/ast_conversion.rs:11:34
+   |
+11 |     StreamAccessKind, Tag, Type, print,
+   |                                  ^^^^^
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/dependencies.rs:122:11
+    |
+122 |     #[cfg(feature = "shift_layer")]
+    |           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: `#[warn(unexpected_cfgs)]` on by default
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/dependencies.rs:184:11
+    |
+184 |     #[cfg(feature = "shift_layer")]
+    |           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+  --> parser/src/hir/modes/ordering.rs:26:11
+   |
+26 |     #[cfg(feature = "shift_layer")]
+   |           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+  --> parser/src/hir/modes/ordering.rs:32:15
+   |
+32 |     #[cfg(not(feature = "shift_layer"))]
+   |               ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+  --> parser/src/hir/modes/ordering.rs:41:11
+   |
+41 |     #[cfg(feature = "shift_layer")]
+   |           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+  --> parser/src/hir/modes/ordering.rs:60:11
+   |
+60 |     #[cfg(feature = "shift_layer")]
+   |           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:122:15
+    |
+122 |         #[cfg(feature = "shift_layer")]
+    |               ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:144:15
+    |
+144 |         #[cfg(feature = "shift_layer")]
+    |               ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:136:40
+    |
+136 |                     Layer::new(if cfg!(feature = "shift_layer") { 1 } else { 0 }),
+    |                                        ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:180:19
+    |
+180 |             #[cfg(feature = "shift_layer")]
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:224:19
+    |
+224 |             #[cfg(feature = "shift_layer")]
+    |                   ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:226:23
+    |
+226 |             #[cfg(not(feature = "shift_layer"))]
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:248:49
+    |
+248 |                         Some(Layer::new(if cfg!(feature = "shift_layer") {
+    |                                                 ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:277:23
+    |
+277 |                 #[cfg(feature = "shift_layer")]
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `shift_layer`
+   --> parser/src/hir/modes/ordering.rs:282:27
+    |
+282 |                 #[cfg(not(feature = "shift_layer"))]
+    |                           ^^^^^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `shift_layer` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unused import: `crate::ast::print`
+ --> parser/src/hir/modes/types.rs:2:5
+  |
+2 | use crate::ast::print;
+  |     ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::ast::print`
+ --> parser/src/hir/type_check/pacing_ast_climber.rs:4:5
+  |
+4 | use crate::ast::print;
+  |     ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::ast::print`
+ --> parser/src/hir/type_check/pacing_types.rs:8:5
+  |
+8 | use crate::ast::print;
+  |     ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+ --> parser/src/hir/type_check/rtltc.rs:2:33
+  |
+2 | use std::collections::{HashMap, HashSet};
+  |                                 ^^^^^^^
+
+warning: unused import: `std::process::exit`
+ --> parser/src/hir/type_check/rtltc.rs:4:5
+  |
+4 | use std::process::exit;
+  |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::ast::print`
+ --> parser/src/hir/type_check/value_ast_climber.rs:4:5
+  |
+4 | use crate::ast::print;
+  |     ^^^^^^^^^^^^^^^^^
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/mir.rs:36:7
+   |
+36 | #[cfg(feature = "spanned")]
+   |       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:127:11
+    |
+127 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:276:11
+    |
+276 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:279:11
+    |
+279 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:320:11
+    |
+320 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:323:11
+    |
+323 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:357:11
+    |
+357 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:383:11
+    |
+383 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:418:11
+    |
+418 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:432:11
+    |
+432 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:511:11
+    |
+511 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/mir.rs:82:11
+   |
+82 |     #[cfg(feature = "spanned")]
+   |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:368:19
+    |
+368 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:394:19
+    |
+394 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/mir.rs:986:11
+    |
+986 |     #[cfg(feature = "spanned")]
+    |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+    --> parser/src/mir/mir.rs:1053:11
+     |
+1053 |     #[cfg(feature = "spanned")]
+     |           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+     |
+     = note: no expected values for `feature`
+     = help: consider adding `spanned` as a feature in `Cargo.toml`
+     = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unused import: `print`
+  --> parser/src/mir/lowering.rs:14:59
+   |
+14 | use crate::ast::{InstanceOperation, Tag, WindowOperation, print};
+   |                                                           ^^^^^
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:189:15
+    |
+189 |         #[cfg(feature = "spanned")]
+    |               ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/lowering.rs:57:27
+   |
+57 |                     #[cfg(feature = "spanned")]
+   |                           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/lowering.rs:59:27
+   |
+59 |                     #[cfg(feature = "spanned")]
+   |                           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:103:23
+    |
+103 |                 #[cfg(feature = "spanned")]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:105:23
+    |
+105 |                 #[cfg(feature = "spanned")]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:218:19
+    |
+218 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:316:15
+    |
+316 |         #[cfg(feature = "spanned")]
+    |               ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:322:19
+    |
+322 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:343:23
+    |
+343 |                 #[cfg(feature = "spanned")]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:349:27
+    |
+349 |                     #[cfg(feature = "spanned")]
+    |                           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:390:19
+    |
+390 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:530:19
+    |
+530 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/lowering.rs:831:23
+    |
+831 |                 #[cfg(feature = "spanned")]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/tag_parser/verbosity_parser.rs:49:15
+   |
+49 |         #[cfg(feature = "spanned")]
+   |               ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/tag_parser/verbosity_parser.rs:89:23
+   |
+89 |                 #[cfg(feature = "spanned")]
+   |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/tag_parser/verbosity_parser.rs:66:27
+   |
+66 |                     #[cfg(feature = "spanned")]
+   |                           ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+  --> parser/src/mir/tag_parser/verbosity_parser.rs:76:31
+   |
+76 |                     #[cfg(not(feature = "spanned"))]
+   |                               ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+   |
+   = note: no expected values for `feature`
+   = help: consider adding `spanned` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/tag_parser/verbosity_parser.rs:105:19
+    |
+105 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/tag_parser/verbosity_parser.rs:116:23
+    |
+116 |             #[cfg(not(feature = "spanned"))]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/tag_parser/verbosity_parser.rs:162:19
+    |
+162 |             #[cfg(feature = "spanned")]
+    |                   ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: unexpected `cfg` condition value: `spanned`
+   --> parser/src/mir/tag_parser/verbosity_parser.rs:173:23
+    |
+173 |             #[cfg(not(feature = "spanned"))]
+    |                       ^^^^^^^^^^^^^^^^^^^ help: remove the condition
+    |
+    = note: no expected values for `feature`
+    = help: consider adding `spanned` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+
+warning: use of deprecated method `itertools::Itertools::group_by`: Use .chunk_by() instead
+   --> parser/src/hir/modes/dependencies.rs:474:22
+    |
+474 |                     .group_by(|(target, _, _)| *target);
+    |                      ^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+
+warning: value assigned to `parameter_flag` is never read
+   --> parser/src/parse.rs:493:34
+    |
+493 |         let mut parameter_flag = false;
+    |                                  ^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+   --> parser/src/parse.rs:975:25
+    |
+975 |                     let mut diag = Diagnostic::error(
+    |                         ----^^^^
+    |                         |
+    |                         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:2218:13
+     |
+2218 |         let mut pair = pairs.peek().expect("mismatch between grammar and AST");
+     |             ----^^^^
+     |             |
+     |             help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:2228:13
+     |
+2228 |         let mut constrains: Vec<Rc<Constrain>> = Vec::new();
+     |             ----^^^^^^^^^^
+     |             |
+     |             help: remove this `mut`
+
+warning: unused variable: `parent_module`
+    --> parser/src/parse.rs:2352:52
+     |
+2352 |     fn parse_constant(&self, pair: Pair<'_, Rule>, parent_module: Option<Ident>) -> Constant {
+     |                                                    ^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_parent_module`
+     |
+     = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:3733:33
+     |
+3733 | ...                   let mut inners_child = pair.into_inner();
+     |                           ----^^^^^^^^^^^^
+     |                           |
+     |                           help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:4181:33
+     |
+4181 | ...                   let mut inners_child = pair.into_inner();
+     |                           ----^^^^^^^^^^^^
+     |                           |
+     |                           help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:3505:13
+     |
+3505 |         let mut pres: Vec<crate::ast::Expr> = Vec::new();
+     |             ----^^^^
+     |             |
+     |             help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:3507:13
+     |
+3507 |         let mut override_flag = false;
+     |             ----^^^^^^^^^^^^^
+     |             |
+     |             help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:3564:25
+     |
+3564 |                     let mut inners = child.into_inner();
+     |                         ----^^^^^^
+     |                         |
+     |                         help: remove this `mut`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:3710:25
+     |
+3710 |                     let mut inners = child.into_inner();
+     |                         ----^^^^^^
+     |                         |
+     |                         help: remove this `mut`
+
+warning: unused variable: `name_pair`
+    --> parser/src/parse.rs:3515:13
+     |
+3515 |         let name_pair = inner.next().expect("Expected Ident in FunDecl");
+     |             ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_name_pair`
+
+warning: variable does not need to be mutable
+    --> parser/src/parse.rs:4574:13
+     |
+4574 |         let mut tuple = Vec::new();
+     |             ----^^^^^
+     |             |
+     |             help: remove this `mut`
+
+warning: value assigned to `expression` is never read
+    --> parser/src/parse.rs:4744:50
+     |
+4744 |         let mut expression: Option<Expression> = None;
+     |                                                  ^^^^
+     |
+     = help: maybe it is overwritten before being read?
+
+warning: unused variable: `p`
+   --> parser/src/hir/modes/ast_conversion/naming.rs:292:17
+    |
+292 |             for p in f.params.iter() {
+    |                 ^ help: if this is intentional, prefix it with an underscore: `_p`
+
+warning: unreachable pattern
+   --> parser/src/hir/modes/ast_conversion/naming.rs:800:13
+    |
+800 |             _ => {
+    |             ^ no value can reach this
+    |
+note: multiple earlier patterns match some of the same values
+   --> parser/src/hir/modes/ast_conversion/naming.rs:800:13
+    |
+661 |             Ident(ident) => self
+    |             ------------ matches some of the same values
+...
+664 |             StreamAccess(expr, _) => self.check_expression(expr),
+    |             --------------------- matches some of the same values
+665 |             Offset(expr, _) => self.check_expression(expr),
+    |             --------------- matches some of the same values
+666 |             DiscreteWindowAggregation { expr, duration, .. } => OORVError::combine(
+    |             ------------------------------------------------ matches some of the same values
+...
+800 |             _ => {
+    |             ^ ...and 12 other patterns collectively make this unreachable
+    = note: `#[warn(unreachable_patterns)]` (part of `#[warn(unused)]`) on by default
+
+warning: unreachable pattern
+   --> parser/src/hir/modes/ast_conversion.rs:384:17
+    |
+384 |                 _ => unreachable!("tips: all expression kinds should be covered"),
+    |                 ^ no value can reach this
+    |
+note: multiple earlier patterns match some of the same values
+   --> parser/src/hir/modes/ast_conversion.rs:384:17
+    |
+361 |                 ast::OutputKind::NamedOutput(name) => OutputKind::NamedOutput(name.name),
+    |                 ---------------------------------- matches some of the same values
+362 |                 ast::OutputKind::Trigger => {
+    |                 ------------------------ matches some of the same values
+...
+384 |                 _ => unreachable!("tips: all expression kinds should be covered"),
+    |                 ^ collectively making this unreachable
+
+warning: unreachable pattern
+    --> parser/src/hir/modes/ast_conversion.rs:1140:13
+     |
+1140 |             _ => {
+     |             ^ no value can reach this
+     |
+note: multiple earlier patterns match some of the same values
+    --> parser/src/hir/modes/ast_conversion.rs:1140:13
+     |
+ 753 |             ast::ExpressionKind::Lit(lit) => {
+     |             ----------------------------- matches some of the same values
+...
+ 757 |             ast::ExpressionKind::Ident(_) => match &self.decl_table[&ast_expression.id] {
+     |             ----------------------------- matches some of the same values
+...
+ 798 |             ast::ExpressionKind::StreamAccess(expr, kind) => {
+     |             --------------------------------------------- matches some of the same values
+...
+ 813 |             ast::ExpressionKind::Default(expr, def) => ExpressionKind::Default {
+     |             --------------------------------------- matches some of the same values
+...
+1140 |             _ => {
+     |             ^ ...and 15 other patterns collectively make this unreachable
+
+warning: variable does not need to be mutable
+   --> parser/src/hir/modes/dependencies.rs:607:21
+    |
+607 |                 let mut res = Self::collect_edges(hir, src, inner);
+    |                     ----^^^
+    |                     |
+    |                     help: remove this `mut`
+
+warning: unused variable: `binds1`
+   --> parser/src/hir/modes/dependencies.rs:605:43
+    |
+605 |             ExpressionKind::Quantified(_, binds1, binds2, inner) => {
+    |                                           ^^^^^^ help: if this is intentional, prefix it with an underscore: `_binds1`
+
+warning: unused variable: `binds2`
+   --> parser/src/hir/modes/dependencies.rs:605:51
+    |
+605 |             ExpressionKind::Quantified(_, binds1, binds2, inner) => {
+    |                                                   ^^^^^^ help: if this is intentional, prefix it with an underscore: `_binds2`
+
+warning: variable does not need to be mutable
+   --> parser/src/hir/type_check/value_ast_climber.rs:987:21
+    |
+987 |                 let mut scope: HashMap<String, TcKey> = HashMap::new();
+    |                     ----^^^^^
+    |                     |
+    |                     help: remove this `mut`
+
+warning: unused variable: `ix`
+   --> parser/src/hir/type_check/value_ast_climber.rs:970:65
+    |
+970 |             ExpressionKind::FunctionParameterAccess(_ident, at, ix) => {
+    |                                                                 ^^ help: if this is intentional, prefix it with an underscore: `_ix`
+
+warning: unused variable: `binds1`
+   --> parser/src/hir/type_check/value_ast_climber.rs:986:48
+    |
+986 |             ExpressionKind::Quantified(_quant, binds1, binds2, inner) => {
+    |                                                ^^^^^^ help: if this is intentional, prefix it with an underscore: `_binds1`
+
+warning: unused variable: `binds2`
+   --> parser/src/hir/type_check/value_ast_climber.rs:986:56
+    |
+986 |             ExpressionKind::Quantified(_quant, binds1, binds2, inner) => {
+    |                                                        ^^^^^^ help: if this is intentional, prefix it with an underscore: `_binds2`
+
+warning: unreachable pattern
+   --> parser/src/mir/lowering.rs:648:13
+    |
+648 |             _ => {
+    |             ^ no value can reach this
+    |
+note: multiple earlier patterns match some of the same values
+   --> parser/src/mir/lowering.rs:648:13
+    |
+542 |             ExpressionKind::LoadConstant(constant) => {
+    |             -------------------------------------- matches some of the same values
+...
+545 |             ExpressionKind::ArithLog(op, args) => {
+    |             ---------------------------------- matches some of the same values
+...
+553 |             ExpressionKind::StreamAccess(sr, kind, para) => mir::ExpressionKind::StreamAccess {
+    |             -------------------------------------------- matches some of the same values
+...
+561 |             ExpressionKind::ParameterAccess(sr, para) => {
+    |             ----------------------------------------- matches some of the same values
+...
+648 |             _ => {
+    |             ^ ...and 10 other patterns collectively make this unreachable
+
+warning: type `hir::hir::AnnotatedType` is more private than the item `expression::ExpressionKind::FunctionParameterAccess::1`
+   --> parser/src/hir/hir/expression.rs:162:36
+    |
+162 |     FunctionParameterAccess(Ident, AnnotatedType, usize),
+    |                                    ^^^^^^^^^^^^^ field `expression::ExpressionKind::FunctionParameterAccess::1` is reachable at visibility `pub`
+    |
+note: but type `hir::hir::AnnotatedType` is only usable at visibility `pub(crate)`
+   --> parser/src/hir/hir.rs:919:1
+    |
+919 | pub(crate) enum AnnotatedType {
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    = note: `#[warn(private_interfaces)]` on by default
+
+warning: associated function `new_optional` is never used
+   --> parser/src/ast/ast.rs:412:19
+    |
+392 | impl Type {
+    | --------- associated function in this implementation
+...
+412 |     pub(crate) fn new_optional(id: NodeId, name: Type, span: Span) -> Type {
+    |                   ^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: associated functions `new_raw_str` and `new_tuple` are never used
+   --> parser/src/ast/ast.rs:709:19
+    |
+680 | impl Literal {
+    | ------------ associated functions in this implementation
+...
+709 |     pub(crate) fn new_raw_str(id: NodeId, val: &str, span: Span) -> Literal {
+    |                   ^^^^^^^^^^^
+...
+718 |     pub(crate) fn new_tuple(id: NodeId, val: Vec<Literal>, span: Span) -> Literal {
+    |                   ^^^^^^^^^
+
+warning: function `format_opt` is never used
+  --> parser/src/ast/print.rs:29:4
+   |
+29 | fn format_opt<T: Display>(opt: &Option<T>, pref: &str, suff: &str) -> String {
+   |    ^^^^^^^^^^
+
+warning: function `format_type` is never used
+  --> parser/src/ast/print.rs:38:4
+   |
+38 | fn format_type(ty: &Option<Type>) -> String {
+   |    ^^^^^^^^^^^
+
+warning: variable `L` should have a snake case name
+   --> parser/src/parse.rs:988:21
+    |
+988 |                 let L = lit.len();
+    |                     ^ help: convert the identifier to snake case: `l`
+    |
+    = note: `#[warn(non_snake_case)]` (part of `#[warn(nonstandard_style)]`) on by default
+
+warning: variable `spwan_AnnotatedPacingType` should have a snake case name
+    --> parser/src/parse.rs:3708:25
+     |
+3708 |                     let spwan_AnnotatedPacingType =
+     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert the identifier to snake case: `spwan_annotated_pacing_type`
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/hir/hir.rs:244:18
+    |
+244 |     pub fn spawn(&self, sr: SRef) -> Option<SpawnDef> {
+    |                  ^^^^^                      ^^^^^^^^ the same lifetime is hidden here
+    |                  |
+    |                  the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+    = note: `#[warn(mismatched_lifetime_syntaxes)]` on by default
+help: use `'_` for type paths
+    |
+244 |     pub fn spawn(&self, sr: SRef) -> Option<SpawnDef<'_>> {
+    |                                                     ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/hir/hir.rs:312:17
+    |
+312 |     pub fn eval(&self, sr: SRef) -> Option<Vec<EvalDef>> {
+    |                 ^^^^^                          ^^^^^^^ the same lifetime is hidden here
+    |                 |
+    |                 the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+312 |     pub fn eval(&self, sr: SRef) -> Option<Vec<EvalDef<'_>>> {
+    |                                                       ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/hir/hir.rs:393:34
+    |
+393 |     pub(crate) fn eval_unchecked(&self, sr: StreamReference) -> Vec<EvalDef> {
+    |                                  ^^^^^ the lifetime is elided here  ^^^^^^^ the same lifetime is hidden here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+393 |     pub(crate) fn eval_unchecked(&self, sr: StreamReference) -> Vec<EvalDef<'_>> {
+    |                                                                            ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/hir/hir.rs:398:18
+    |
+398 |     pub fn close(&self, sr: SRef) -> Option<CloseDef> {
+    |                  ^^^^^                      ^^^^^^^^ the same lifetime is hidden here
+    |                  |
+    |                  the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+398 |     pub fn close(&self, sr: SRef) -> Option<CloseDef<'_>> {
+    |                                                     ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+  --> parser/src/hir/hir/selector.rs:21:19
+   |
+21 |     pub fn select(&self) -> StreamSelector<M, All> {
+   |                   ^^^^^     ^^^^^^^^^^^^^^^^^^^^^^ the same lifetime is hidden here
+   |                   |
+   |                   the lifetime is elided here
+   |
+   = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+   |
+21 |     pub fn select(&self) -> StreamSelector<'_, M, All> {
+   |                                            +++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/mir/mir/dependency_graph.rs:225:20
+    |
+225 | fn node_infos(mir: &Mir, node: Node) -> NodeInformation {
+    |                    ^^^^                 ^^^^^^^^^^^^^^^ the same lifetime is hidden here
+    |                    |
+    |                    the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+225 | fn node_infos(mir: &Mir, node: Node) -> NodeInformation<'_> {
+    |                                                        ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/mir/mir/dependency_graph.rs:233:22
+    |
+233 | fn stream_infos(mir: &Mir, sref: StreamReference) -> NodeInformation {
+    |                      ^^^^                            ^^^^^^^^^^^^^^^ the same lifetime is hidden here
+    |                      |
+    |                      the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+233 | fn stream_infos(mir: &Mir, sref: StreamReference) -> NodeInformation<'_> {
+    |                                                                     ++++
+
+warning: hiding a lifetime that's elided elsewhere is confusing
+   --> parser/src/mir/mir/dependency_graph.rs:268:22
+    |
+268 | fn window_infos(mir: &Mir, wref: WindowReference) -> NodeInformation {
+    |                      ^^^^                            ^^^^^^^^^^^^^^^ the same lifetime is hidden here
+    |                      |
+    |                      the lifetime is elided here
+    |
+    = help: the same lifetime is referred to in inconsistent ways, making the signature confusing
+help: use `'_` for type paths
+    |
+268 | fn window_infos(mir: &Mir, wref: WindowReference) -> NodeInformation<'_> {
+    |                                                                     ++++
+
+warning: `parser` (lib) generated 111 warnings (run `cargo fix --lib -p parser` to apply 42 suggestions)
+warning: unused import: `UNIX_EPOCH`
+  --> excute/src/api/queued.rs:30:39
+   |
+30 | use std::time::{Duration, SystemTime, UNIX_EPOCH};
+   |                                       ^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unnecessary parentheses around type
+  --> excute/src/api/input.rs:86:41
+   |
+86 | pub type ValueGetter<From, E> = Box<dyn (Fn(&From) -> Result<Value, E>)>;
+   |                                         ^                             ^
+   |
+   = note: `#[warn(unused_parens)]` (part of `#[warn(unused)]`) on by default
+help: remove these parentheses
+   |
+86 - pub type ValueGetter<From, E> = Box<dyn (Fn(&From) -> Result<Value, E>)>;
+86 + pub type ValueGetter<From, E> = Box<dyn Fn(&From) -> Result<Value, E>>;
+   |
+
+warning: unused imports: `SecondsFormat` and `Utc`
+  --> excute/src/closuregen.rs:12:14
+   |
+12 | use chrono::{Utc, SecondsFormat};
+   |              ^^^  ^^^^^^^^^^^^^
+
+warning: unnecessary qualification
+  --> excute/src/closuregen.rs:55:61
+   |
+55 |     pub(crate) fn create_filter_from_quantified(filter_ast: parser::mir::Expression, value_ast: parser::mir::Expression) -> Self {
+   |                                                             ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+note: the lint level is defined here
+  --> excute/src/lib.rs:25:5
+   |
+25 |     unused_qualifications
+   |     ^^^^^^^^^^^^^^^^^^^^^
+help: remove the unnecessary path segments
+   |
+55 -     pub(crate) fn create_filter_from_quantified(filter_ast: parser::mir::Expression, value_ast: parser::mir::Expression) -> Self {
+55 +     pub(crate) fn create_filter_from_quantified(filter_ast: Expression, value_ast: parser::mir::Expression) -> Self {
+   |
+
+warning: unnecessary qualification
+  --> excute/src/closuregen.rs:55:97
+   |
+55 |     pub(crate) fn create_filter_from_quantified(filter_ast: parser::mir::Expression, value_ast: parser::mir::Expression) -> Self {
+   |                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+help: remove the unnecessary path segments
+   |
+55 -     pub(crate) fn create_filter_from_quantified(filter_ast: parser::mir::Expression, value_ast: parser::mir::Expression) -> Self {
+55 +     pub(crate) fn create_filter_from_quantified(filter_ast: parser::mir::Expression, value_ast: Expression) -> Self {
+   |
+
+warning: unnecessary qualification
+  --> excute/src/closuregen.rs:62:34
+   |
+62 |             let mut targets: Vec<parser::hir::StreamReference> = Vec::new();
+   |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+help: remove the unnecessary path segments
+   |
+62 -             let mut targets: Vec<parser::hir::StreamReference> = Vec::new();
+62 +             let mut targets: Vec<StreamReference> = Vec::new();
+   |
+
+warning: unnecessary qualification
+  --> excute/src/closuregen.rs:63:56
+   |
+63 |             fn collect_targets(e: &Expr, out: &mut Vec<parser::hir::StreamReference>) {
+   |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+help: remove the unnecessary path segments
+   |
+63 -             fn collect_targets(e: &Expr, out: &mut Vec<parser::hir::StreamReference>) {
+63 +             fn collect_targets(e: &Expr, out: &mut Vec<StreamReference>) {
+   |
+
+warning: unnecessary qualification
+   --> excute/src/closuregen.rs:238:46
+    |
+238 |                 let mut binding_targets: Vec<parser::hir::StreamReference> = vec![targets[0]; unique_bindings.len()];
+    |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+help: remove the unnecessary path segments
+    |
+238 -                 let mut binding_targets: Vec<parser::hir::StreamReference> = vec![targets[0]; unique_bindings.len()];
+238 +                 let mut binding_targets: Vec<StreamReference> = vec![targets[0]; unique_bindings.len()];
+    |
+
+warning: unnecessary qualification
+   --> excute/src/closuregen.rs:262:35
+    |
+262 |                     targets: &Vec<parser::hir::StreamReference>,
+    |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+help: remove the unnecessary path segments
+    |
+262 -                     targets: &Vec<parser::hir::StreamReference>,
+262 +                     targets: &Vec<StreamReference>,
+    |
+
+warning: unnecessary qualification
+   --> excute/src/closuregen.rs:273:44
+    |
+273 |                     first_map: &mut Option<std::collections::HashMap<usize, Vec<Value>>>,
+    |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+help: remove the unnecessary path segments
+    |
+273 -                     first_map: &mut Option<std::collections::HashMap<usize, Vec<Value>>>,
+273 +                     first_map: &mut Option<HashMap<usize, Vec<Value>>>,
+    |
+
+warning: unnecessary qualification
+   --> excute/src/closuregen.rs:360:43
+    |
+360 |                 let mut first_map: Option<std::collections::HashMap<usize, Vec<Value>>> = None;
+    |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+help: remove the unnecessary path segments
+    |
+360 -                 let mut first_map: Option<std::collections::HashMap<usize, Vec<Value>>> = None;
+360 +                 let mut first_map: Option<HashMap<usize, Vec<Value>>> = None;
+    |
+
+warning: unnecessary qualification
+   --> excute/src/closuregen.rs:785:35
+    |
+785 |                         mapping: &std::collections::HashMap<usize, Vec<Value>>,
+    |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+help: remove the unnecessary path segments
+    |
+785 -                         mapping: &std::collections::HashMap<usize, Vec<Value>>,
+785 +                         mapping: &HashMap<usize, Vec<Value>>,
+    |
+
+warning: unused import: `std::path::PathBuf`
+ --> excute/src/configuration/config_builder.rs:3:5
+  |
+3 | use std::path::PathBuf;
+  |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused variable: `single_start`
+   --> excute/src/api/queued.rs:867:25
+    |
+867 |                     let single_start = Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_single_start`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `single_end`
+   --> excute/src/api/queued.rs:893:25
+    |
+893 |                     let single_end = Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    |                         ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_single_end`
+
+warning: unused variable: `dur_ns`
+   --> excute/src/api/queued.rs:896:25
+    |
+896 |                     let dur_ns = dur.as_nanos();
+    |                         ^^^^^^ help: if this is intentional, prefix it with an underscore: `_dur_ns`
+
+warning: `excute` (lib) generated 16 warnings (run `cargo fix --lib -p excute` to apply 16 suggestions)
+warning: unused import: `CommandFactory`
+ --> oorv2c/src/main.rs:8:28
+  |
+8 | use clap::{ArgGroup, Args, CommandFactory, Parser, ValueEnum};
+  |                            ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `ir::OORVIR as OORVIR`
+  --> oorv2c/src/main.rs:10:14
+   |
+10 | use parser::{ir::OORVIR as OORVIR};
+   |              ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `parser::*`
+  --> oorv2c/src/main.rs:17:5
+   |
+17 | use parser::*;
+   |     ^^^^^^^^^
+
+warning: unused import: `self`
+  --> oorv2c/src/config.rs:10:22
+   |
+10 | use excute::config::{self, ExecutionMode, OfflineMode, OnlineMode};
+   |                      ^^^^
+
+warning: unused variable: `debug_streams`
+   --> oorv2c/src/main.rs:685:9
+    |
+685 |     let debug_streams = args.debug_streams.clone();
+    |         ^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_debug_streams`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: `oorv2c` (bin "oorv2c") generated 5 warnings (run `cargo fix --bin "oorv2c" -p oorv2c` to apply 5 suggestions)
+    Finished `release` profile [optimized] target(s) in 0.23s

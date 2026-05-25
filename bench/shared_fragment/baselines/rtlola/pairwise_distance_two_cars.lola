@@ -1,0 +1,15 @@
+input car1_seen: Bool
+input car1_lat: Float64
+input car1_lon: Float64
+input car2_seen: Bool
+input car2_lat: Float64
+input car2_lon: Float64
+
+output pairwise_too_close @(car1_seen || car1_lat || car1_lon || car2_seen || car2_lat || car2_lon)
+  := car1_seen.hold().defaults(to: false)
+  && car2_seen.hold().defaults(to: false)
+  && ((car1_lat.hold().defaults(to: 0.0) - car2_lat.hold().defaults(to: 0.0))**2.0
+     + (car1_lon.hold().defaults(to: 0.0) - car2_lon.hold().defaults(to: 0.0))**2.0) < 0.16
+
+trigger pairwise_too_close
+  "Two distinct cars are too close."

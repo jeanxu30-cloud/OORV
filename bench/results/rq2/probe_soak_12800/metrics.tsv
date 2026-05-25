@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+probe_soak_12800	24	8	12800	12800	10.764	137.842452	92.860	none	NA	not_measured	8	8	100	8	8	128	0.8	24.0	soak_probe	1

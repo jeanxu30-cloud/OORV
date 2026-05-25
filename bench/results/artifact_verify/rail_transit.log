@@ -1,0 +1,7 @@
+@@MONITOR_START:2026-05-15T00:55:59.360810000Z
+@0.500000000 | constraint | #1 :: value = "Train entered a block protected by a red signal."
+@@TIME_PROC_AVG COUNT:6 AVG_MS:0.035
+@@TIME_THROUGHPUT COUNT:6 DURATION_S:0.000213 EVENTS_PER_S:28169.014
+@0.600000000 | constraint | #1 :: value = "Train entered a block protected by a red signal."
+@0.600000000 | constraint | #2 :: value = "Two trains are too close on the same block."
+@@MONITOR_END:2026-05-15T00:55:59.361230000Z

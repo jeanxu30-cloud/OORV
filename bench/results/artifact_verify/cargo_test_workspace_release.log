@@ -1,0 +1,57 @@
+    Finished `release` profile [optimized] target(s) in 0.07s
+     Running unittests src/main.rs (target/release/deps/oorv-bda800294d2437ef)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cli_semantics.rs (target/release/deps/cli_semantics-6abe3616ca26a6b1)
+
+running 8 tests
+test always_alarm_fires_on_each_event ... ok
+test exists_empty_domain_remains_false ... ok
+test forall_empty_domain_uses_vacuous_truth_for_expression_semantics ... ok
+test forall_pure_domain_false_when_active_object_exists ... ok
+test exists_pure_domain_true_when_active_object_exists ... ok
+test quantified_same_domain_pair_allows_self_pair_without_explicit_distinctness ... ok
+test quantified_explicit_distinctness_excludes_self_pair ... ok
+test quantified_repeated_access_uses_same_object_binding ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.53s
+
+     Running unittests src/lib.rs (target/release/deps/oorv_core-01229c9ae5f92dce)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/surface_semantics.rs (target/release/deps/surface_semantics-2c1180313e434576)
+
+running 4 tests
+test world_collection_domains_lower_to_active_instance_streams ... ok
+test parser_accepts_preferred_surface_aliases ... ok
+test quantified_preprocessing_preserves_named_domains ... ok
+test world_constraints_accept_history_access ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/release/deps/oorv2c-b445689625cfe2a5)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/c_codegen.rs (target/release/deps/c_codegen-a7bc23962006ef19)
+
+running 2 tests
+test oorv2c_uses_core_pipeline_and_emits_c_metadata ... ok
+test oorv2c_emits_executable_c_for_stateless_event_alarm_subset ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.87s
+
+   Doc-tests oorv_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

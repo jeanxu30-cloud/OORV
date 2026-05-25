@@ -1,0 +1,25 @@
+@@MONITOR_START:2026-05-14T09:49:05.245061000Z
+                                                                                
+  0 cycles
+  0 constraint hits
+                                                                                
+  0 cycles
+  0 constraint hits
+@@TIME_PROC_AVG COUNT:5 AVG_MS:0.013
+@@TIME_THROUGHPUT COUNT:5 DURATION_S:0.000063 EVENTS_PER_S:79365.079
+                                                                                
+  0 cycles
+  0 constraint hits
+                                                                                
+  @@MONITOR_END:2026-05-14T09:49:05.245243000Z
+0 cycles
+  0 constraint hits
+                                                                                
+  0 cycles
+  0 constraint hits
+                                                                                
+  5 cycles  |  94937 cyc/s  |  10533 ns/cyc
+  5 input events parsed in 0.000s  |  10533 ns/event avg
+  0 constraint hits total
+  Breakdown:
+   [#0]: 0

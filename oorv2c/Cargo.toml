@@ -1,0 +1,12 @@
+[package]
+name = "oorv2c"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oorv_core = { package = "oorv-core", path = "../core" }
+clap = { version = "4.0.9", features = [
+    "derive",
+    "cargo",
+    "wrap_help",
+] }

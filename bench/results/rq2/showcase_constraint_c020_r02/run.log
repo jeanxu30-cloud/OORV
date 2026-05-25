@@ -1,0 +1,1949 @@
+@@MONITOR_START:2026-05-14T09:58:15.220977000Z
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  31 cycles  |  119 cyc/s  |  8350534 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  46 cycles  |  90 cyc/s  |  11078651 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  62 cycles  |  79 cyc/s  |  12515738 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  77 cycles  |  75 cyc/s  |  13325554 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  92 cycles  |  72 cyc/s  |  13877395 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  108 cycles  |  69 cyc/s  |  14286153 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  123 cycles  |  68 cyc/s  |  14587716 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  139 cycles  |  67 cyc/s  |  14817206 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  154 cycles  |  66 cyc/s  |  15012121 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  170 cycles  |  66 cyc/s  |  15148917 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  186 cycles  |  65 cyc/s  |  15270790 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  202 cycles  |  65 cyc/s  |  15371919 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  218 cycles  |  64 cyc/s  |  15458354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  234 cycles  |  64 cyc/s  |  15519480 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  250 cycles  |  64 cyc/s  |  15576044 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  266 cycles  |  63 cyc/s  |  15628286 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  282 cycles  |  63 cyc/s  |  15678572 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  298 cycles  |  63 cyc/s  |  15726471 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  314 cycles  |  63 cyc/s  |  15764132 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  330 cycles  |  63 cyc/s  |  15805066 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  346 cycles  |  63 cyc/s  |  15843355 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  361 cycles  |  62 cyc/s  |  15877864 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  376 cycles  |  62 cyc/s  |  15909354 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  391 cycles  |  62 cyc/s  |  15942858 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  407 cycles  |  62 cyc/s  |  15970945 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  423 cycles  |  62 cyc/s  |  15993279 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  438 cycles  |  62 cyc/s  |  16017722 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  453 cycles  |  62 cyc/s  |  16041857 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  469 cycles  |  62 cyc/s  |  16052352 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  485 cycles  |  62 cyc/s  |  16069467 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  500 cycles  |  62 cyc/s  |  16088842 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  516 cycles  |  62 cyc/s  |  16103787 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  532 cycles  |  62 cyc/s  |  16117908 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  548 cycles  |  61 cyc/s  |  16132634 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  563 cycles  |  61 cyc/s  |  16148264 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  578 cycles  |  61 cyc/s  |  16163230 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  593 cycles  |  61 cyc/s  |  16177987 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  609 cycles  |  61 cyc/s  |  16186692 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  625 cycles  |  61 cyc/s  |  16191737 ns/cyc
+  0 constraint hits
+[3F[J@@TIME_PROC_AVG COUNT:640 AVG_MS:16.207
+@@TIME_THROUGHPUT COUNT:640 DURATION_S:10.372356 EVENTS_PER_S:61.702
+                                                                                
+  640 cycles  |  61 cyc/s  |  16203984 ns/cyc
+  0 constraint hits
+[3F[J                                                                                
+  640 cycles  |  61 cyc/s  |  16203984 ns/cyc
+  640 input events parsed in 0.000s  |  16203984 ns/event avg
+  0 constraint hits total
+  Breakdown:
+   [#0]: 0
+   [#1]: @@MONITOR_END:2026-05-14T09:58:25.593660000Z
+0
+   [#2]: 0
+   [#3]: 0
+   [#4]: 0
+   [#5]: 0
+   [#6]: 0
+   [#7]: 0
+   [#8]: 0
+   [#9]: 0
+   [#10]: 0
+   [#11]: 0
+   [#12]: 0
+   [#13]: 0
+   [#14]: 0
+   [#15]: 0
+   [#16]: 0
+   [#17]: 0
+   [#18]: 0
+   [#19]: 0

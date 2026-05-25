@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+showcase_object_o040_r05	40	6	640	640	12.979	8.306893	77.044	none	NA	not_measured	0	0	100	1	0	0	1.0	10.0	object_sweep	5

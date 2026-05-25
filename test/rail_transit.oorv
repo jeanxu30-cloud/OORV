@@ -1,0 +1,58 @@
+module Rail {
+    class Motion {
+        signals:
+            Float position;
+            Float speed;
+    }
+
+    class Train {
+        signals:
+            Int block;
+            Motion motion;
+
+        constraints:
+            acceleration_bound {
+                if abs(self.motion.speed.last(default:0.0) - self.motion.speed.prev(default:0.0)) > 35.0 {
+                    alert! "Train {self.uid} has an abrupt speed change.";
+                }
+            }
+    }
+
+    class Signal {
+        signals:
+            Int block;
+            Int aspect;
+    }
+}
+
+world RailTransit {
+    use Rail;
+    trains: Train[];
+    signals: Signal[];
+
+    constraints:
+        red_signal_entry @always {
+            if exists train in trains, sig in signals:
+                train.block.last(default:-1) == sig.block.last(default:-2) and
+                sig.aspect.last(default:1) == 0 and
+                train.motion.speed.last(default:0.0) > 0.0 {
+                violation! "Train entered a block protected by a red signal.";
+            }
+        }
+
+        shared_block_spacing @0.2s {
+            if exists train in trains, other in trains:
+                train != other and
+                train.block.last(default:-1) == other.block.last(default:-2) and
+                abs(train.motion.position.last(default:0.0) - other.motion.position.last(default:1000000.0)) < 25.0 {
+                alert! "Two trains are too close on the same block.";
+            }
+        }
+
+        fleet_snapshot @0.2s {
+            if exists train in trains:
+                train.motion.speed.last(default:0.0) >= 0.0 {
+                info! "Periodic fleet snapshot completed.";
+            }
+        }
+}

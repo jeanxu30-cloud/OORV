@@ -1,0 +1,16 @@
+@@MONITOR_START:2026-05-15T00:55:59.824070000Z
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[@@TIME_PROC_AVG COUNT:2 AVG_MS:0.016
+3F[J@@TIME_THROUGHPUT COUNT:2 DURATION_S:0.000032 EVENTS_PER_S:62500.000
+                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  2 cycles  |  82760 cyc/s  |  12083 ns/cyc
+  2 input events parsed in 0.000s  |  12083 ns/event avg
+  0 constraint hits total
+  Breakdown:
+   [#0]: 0
+@@MONITOR_END:2026-05-15T00:55:59.824205000Z

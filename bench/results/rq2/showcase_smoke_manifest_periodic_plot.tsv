@@ -1,0 +1,5 @@
+x	avg_ms_median	avg_ms_min	avg_ms_max	avg_ms_err_minus	avg_ms_err_plus	throughput_median	throughput_min	throughput_max	throughput_err_minus	throughput_err_plus
+0	8.020	8.020	8.020	0.000	0.000	124.641	124.641	124.641	0.000	0.000
+1	8.653	8.653	8.653	0.000	0.000	115.521	115.521	115.521	0.000	0.000
+2	8.796	8.796	8.796	0.000	0.000	113.649	113.649	113.649	0.000	0.000
+4	7.830	7.830	7.830	0.000	0.000	127.658	127.658	127.658	0.000	0.000

@@ -1,0 +1,9 @@
+@@MONITOR_START:2026-05-15T00:55:59.349197000Z
+@0.100000000 | constraint | #3 :: value = "A car moved through the intersection while the light was red."
+@0.200000000 | constraint | #0<1> :: value = "Front wheel steering angles differ: left=0.1, right=1.1"
+@0.200000000 | constraint | #3 :: value = "A car moved through the intersection while the light was red."
+@0.300000000 | constraint | #2 :: value = "Two distinct cars are closer than the safe-distance threshold."
+@@TIME_PROC_AVG COUNT:5 AVG_MS:0.059
+@@TIME_THROUGHPUT COUNT:5 DURATION_S:0.000294 EVENTS_PER_S:17006.803
+@0.400000000 | constraint | #2 :: value = "Two distinct cars are closer than the safe-distance threshold."
+@@MONITOR_END:2026-05-15T00:55:59.349833000Z

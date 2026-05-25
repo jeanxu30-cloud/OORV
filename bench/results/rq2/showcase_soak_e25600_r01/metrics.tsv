@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+showcase_soak_e25600_r01	24	8	25600	25600	1.687	43.191339	592.711	none	NA	not_measured	8	8	100	8	8	128	0.8	24.0	soak_sweep	1

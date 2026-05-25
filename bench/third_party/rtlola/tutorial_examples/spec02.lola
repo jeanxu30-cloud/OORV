@@ -1,0 +1,20 @@
+// number of visible GPS satellites
+input gps: UInt64
+output number_of_satellites_too_large := gps > 16
+trigger number_of_satellites_too_large
+  "Number of satellites is too large for flying near the ground."
+trigger gps = 3
+  "Few GPS satellites in range. 3 dimensional location unavailable"
+trigger gps < 3
+  "Few GPS satellites in range. No GPS location available."
+
+input lat: Float64
+input lon: Float64
+output not_enough_lat_readings @ 10Hz
+  := lat.aggregate(over: 4.1s, using:count) < 7
+output not_enough_lon_readings @ 10Hz
+  := lon.aggregate(over_exactly: 4.1s, using:count).defaults(to:7) < 7
+trigger not_enough_lat_readings
+  "GPS module did not provide sufficient lat readings.(Ignore initially)"
+trigger not_enough_lon_readings
+  "GPS module did not provide sufficient lon readings."

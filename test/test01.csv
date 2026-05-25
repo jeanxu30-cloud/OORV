@@ -1,0 +1,6 @@
+Car::Car::uid,Car::Car::front_wheels::left_wheel::angle,Car::Car::front_wheels::right_wheel::angle,Car::Car::back_wheels::left_wheel::angle,Car::Car::back_wheels::right_wheel::angle,Car::Car::front_wheels::left_wheel::speed,Car::Car::front_wheels::right_wheel::speed,Car::Car::back_wheels::left_wheel::speed,Car::Car::back_wheels::right_wheel::speed,Car::Car::lat,Car::Car::lon,TrafficLight::Light::uid,TrafficLight::Light::color,time
+1,0.0,0.0,0.0,0.0,60,60,60,60,1.0,1.0,1,0,0.1
+1,0.1,1.1,0.0,0.0,85,65,65,65,1.1,1.0,1,0,0.2
+2,0.2,0.2,0.0,0.0,70,70,70,70,2.1,1.0,1,1,0.3
+3,0.1,0.1,0.0,0.0,100,100,100,100,1.2,1.0,1,1,0.3
+2,0.0,0.0,0.0,0.0,60,60,60,60,1.0,1.0,2,2,0.4

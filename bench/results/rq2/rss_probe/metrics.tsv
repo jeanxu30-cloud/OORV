@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note
+rss_probe	2	1	10	10	0.019	0.000189	52910.053	macos-rss	NA	unavailable_or_not_permitted

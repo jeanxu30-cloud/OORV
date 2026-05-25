@@ -1,0 +1,159 @@
+module Benchmark {
+    class Car {
+        signals:
+            Float lat;
+            Float lon;
+            Float speed;
+    }
+}
+
+world Rq2Synthetic {
+    use Benchmark;
+    cars: Car[];
+
+    constraints:
+        pairwise_distance_001 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        pairwise_distance_002 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        pairwise_distance_003 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        pairwise_distance_004 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        pairwise_distance_005 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        pairwise_distance_006 @always {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.25
+                ) {
+                alert! "Pairwise safe-distance violation.";
+            }
+        }
+
+        fleet_snapshot_001 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_002 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_003 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_004 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_005 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_006 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_007 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+        fleet_snapshot_008 @100Hz {
+            if exists c in cars:
+                c.speed.last(default:0.0) > 1000000.0 {
+                alert! "Periodic fleet snapshot violation.";
+            }
+        }
+
+    function is_close(x1:Float, y1:Float, x2:Float, y2:Float, threshold:Float) -> Bool {
+        let distance = sqrt((x1 - x2)**2.0 + (y1 - y2)**2.0);
+        distance < threshold
+    }
+}

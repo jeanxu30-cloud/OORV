@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+showcase_hotset_hs024_r02	24	8	2400	2400	6.550	15.719711	152.675	none	NA	not_measured	8	8	100	8	24	96	0.8	29.0	hotset_sweep	2

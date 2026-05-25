@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+codex_macos_rss_awk	2	1	2	2	0.015	0.000031	64516.129	macos-rss	10862592	macos_max_resident_set_size_bytes	0	0	100	1	0	0	1.0	10.0	ad_hoc	1

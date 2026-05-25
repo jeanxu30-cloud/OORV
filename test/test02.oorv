@@ -1,0 +1,18 @@
+module Car {
+    class Car {
+        signals:
+            Int a;
+            Int b;
+
+        constraints:
+            positive_sum_check {
+                if self.a + self.b > 0 {
+                    alert! "The sum of a and b should not be positive.";
+                }
+            }
+    }
+}
+
+world TrafficSystem {
+    cars: Car::Car[];
+}

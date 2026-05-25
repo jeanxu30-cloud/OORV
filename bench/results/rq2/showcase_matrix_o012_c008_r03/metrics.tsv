@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+showcase_matrix_o012_c008_r03	12	8	240	240	1.654	0.397089	604.399	none	NA	not_measured	0	0	100	1	0	0	1.0	10.0	matrix_sweep	3

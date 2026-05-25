@@ -1,0 +1,36 @@
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  0 cycles
+  0 constraint hits
+[3F[J                                                                                
+  9 cycles  |  15281 cyc/s  |  65439 ns/cyc
+  5 input events parsed in 0.000s  |  65439 ns/event avg
+  5 constraint hits total
+  Breakdown:
+   [#0]: 1
+   [#1]: 0
+   [#2]: 2
+   [#3]: 2

@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note	history_depth	periodic_constraints	periodic_hz	burst_size	hotset_size	phase_length	time_step_ms	burst_gap_ms	family	repetition
+codex_uid_identity_probe_before	2	1	5	5	0.014	0.000071	70422.535	none	NA	not_measured	0	0	100	1	0	0	1.0	10.0	ad_hoc	1

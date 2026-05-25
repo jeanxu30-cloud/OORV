@@ -1,0 +1,42 @@
++ cd /Users/shijianqi/Repos/research/papers/OORV/tool
++ /Users/shijianqi/Repos/research/papers/OORV/tool/target/release/oorv2c /Users/shijianqi/Repos/research/papers/OORV/tool/bench/results/rq2/syntax_probe/synthetic.oorv --offline relative --csv-in /Users/shijianqi/Repos/research/papers/OORV/tool/bench/results/rq2/syntax_probe/synthetic.csv --verbosity silent --statistics all
+@@MONITOR_START:2026-03-30T02:54:02.203883000Z
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J@@TIME_PROC_AVG COUNT:10 AVG_MS:0.013
+@@TIME_THROUGHPUT COUNT:10 DURATION_S:0.000135 EVENTS_PER_S:74074.074
+================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J@@MONITOR_END:2026-03-30T02:54:02.204182000Z
+================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+▌ 0 events
+  0 trigger
+[3F[J================================================================================
+  10 cycles, 85227 cycles per second, 11733 nsec per cycles
+  10 input events parsed in 0.000004126 secs; 11733 nsec per event on average
+  0 trigger in total
+  Trigger details:
+   [#0]: 0

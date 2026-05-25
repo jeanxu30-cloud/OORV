@@ -1,0 +1,195 @@
+// OORV grammar -- top-level program structure
+Spec = { SOI ~ IncludeStat* ~ (ModuleDecl | WorldDecl | ConstantDecl)+ ~ EOI }
+
+// Keywords (silent -- consumed but not captured)
+KwModule      = _{ "module" | "Module" }
+KwWorld       = _{ "world" | "World" }
+KwClass       = _{ "class" | "Class" }
+KwConst       = _{ "constant" | "const" | "Constant" | "Const" }
+KwFun         = _{ "function" | "fun" | "Function" | "Fun" }
+KwSignals     = _{ "signals" | "signal" | "Signals" | "Signal" }
+KwConstraints = _{ "constraints" | "constraint" | "Constraints" | "Constraint" | "Constrain" }
+KwGlobal      = _{ "global" | "Global" }
+KwLocal       = _{ "local" | "Local" }
+
+// Top-level declarations
+IncludeStat   = { "include" ~ ValueLit ~ ";" }
+UseStat      = { "use" ~ Ident ~ ";" }
+ModuleDecl = { KwModule ~ Ident ~ "{" ~ UseStat* ~ ( ModuleDecl | TypeDef | FuncDef | CheckBlock)+ ~ "}" }
+WorldDecl     = { KwWorld ~ Ident ~ "{" ~ UseStat* ~ MemberDecl* ~ (FuncDef | CheckBlock)* ~ "}" }
+MemberDecl  = { Ident ~ ":" ~ TypeRef ~ CollectionSuffix? ~ ";" }
+ConstantDecl     = { KwConst ~ TypeRef ~ Ident ~ "=" ~ ConstLit ~ ";" }
+CollectionSuffix = _{ "[" ~ "*"? ~ "]" }
+
+// Function declarations
+FuncDef    = { KwFun ~ Ident ~ ParamListDecl? ~ ("->" ~ TypeRef)? ~ "{" ~ FuncBody? ~ "}" }
+FuncBody   = { ( LetStmt | AssignStmt )* ~ Expr? }
+AssignStmt = { Ident ~ LetValue }
+
+// Class / type declarations
+TypeDef  = { KwClass ~ Ident ~ ("extends" ~ Ident)? ~ "{" ~ TypeBody? ~ "}" }
+TypeBody = { (StreamBlock | CheckBlock | COMMENT)* }
+
+// Constraint blocks
+CheckBlock = { KwConstraints ~ ":" ~ CheckItem+ }
+CheckItem  = { "@override"? ~ PreCond* ~ Ident ~ Timing? ~ "{" ~ ( LetStmt | BranchGroup)* ~ "}" }
+PreCond    = { "@pre" ~ Expr }
+
+// Conditional branches inside constraints
+BranchGroup = { ( CondBranch ~ ElseBranch) | CondBranch }
+CondBranch  = { BranchHead ~ "{" ~ (InfoOutput | AlertOutput | ViolationOutput) ~ "}" }
+ElseBranch  = { "else" ~ "{" ~ (InfoOutput | AlertOutput | ViolationOutput) ~ "}" }
+BranchHead  = { "if" ~ Expr }
+
+// Constraint statement kinds
+InfoOutput      = { "info"      ~ "!" ~ Expr ~ ";" }
+AlertOutput     = { "alert"     ~ "!" ~ Expr ~ ";" }
+ViolationOutput = { "violation" ~ "!" ~ Expr ~ ";" }
+
+// Signal / stream declarations
+StreamBlock = { KwSignals ~ ":" ~ StreamList }
+StreamList  = { StreamItem ~ (StreamSep ~ StreamItem)* ~ StreamSep? }
+StreamSep   = _{ "," | ";" }
+StreamItem  = { TypeRef ~ Ident }
+
+// Let bindings
+LetName  = { "let" ~ Ident }
+LetValue = { "=" ~ Expr ~ ";" }
+LetStmt  = { LetName ~ LetValue }
+
+// Timing / activation condition annotations
+Timing       = { "@" ~ (TopLevelAC | "(" ~ TopLevelAC ~ ")") }
+TopLevelAC   = _{ GlobalTiming | LocalTiming | TimingExpr }
+GlobalTiming = { KwGlobal ~ "(" ~ TimingExpr ~ ")" }
+LocalTiming  = { KwLocal  ~ "(" ~ TimingExpr ~ ")" }
+TimingExpr   = { NumLit | GuardExpr }
+GuardExpr    = {
+    BoolAlways
+    | BoolTrue
+    | (Ident | "(" ~ GuardExpr ~ ")") ~ ((OpAnd | OpBitAnd | OpOr | OpBitOr) ~ GuardExpr)*
+    | "(" ~ GuardExpr ~ ")"
+}
+
+// Binary operators
+Operation = _{ OpAnd | OpOr | OpImplies | OpAdd | OpSub | OpPow | OpMul | OpDiv | OpRem | OpBitAnd | OpBitOr | OpBitXor | OpShl | OpShr | CompOp }
+OpAdd     = { "+"  }
+OpSub     = { "-"  }
+OpMul     = { "*"  }
+OpDiv     = { "/"  }
+OpRem     = { "%"  }
+OpPow     = { "**" }
+OpAnd     = { "∧" | "&&" | "and" }
+OpOr      = { "∨" | "||" | "or"  }
+OpImplies = { "->" | "→" | "implies" }
+OpDot     = { "." }
+OpBitAnd  = { "&" }
+OpBitOr   = { "|" }
+OpBitXor  = { "^" }
+OpShl     = { "<<" }
+OpShr     = { ">>" }
+
+// Unary operators
+UnaryOperation = _{ OpAdd | OpSub | OpNeg | OpBitNot }
+OpNeg    = { "!" | "¬" | "not" }
+OpBitNot = { "~" }
+
+// Comparison operators
+CmpLt = { "<" }
+CmpLe = { "<=" | "≤" }
+CmpGt = { ">" }
+CmpGe = { ">=" | "≥" }
+CmpNe = { "!=" | "≠" }
+CmpEq = { "="{1,2} }
+CompOp = _{ CmpLe | CmpGe | CmpLt | CmpGt | CmpNe | CmpEq }
+
+// Expression grammar -- Pratt parser handles precedence
+Expr = { (Term ~ ( (Operation ~ Term) | (OpDot ~ (IntLit | CallExpr | Ident)) | (LBracket ~ ValueLit ~ ClosingBracket) )*) }
+Term = _{ Quantified | QuantifiedAlt | Lambda | MissingTerm | ValueLit | ParenExpr | PrefixExpr | IfThenElse | CallExpr | Ident | TupleExpr }
+
+// Parenthesized sub-expressions
+ParenExpr          = { LParen ~ Expr ~ ClosingParenthesis | LParen ~ Expr ~ MissingRParen }
+LParen             = { "(" }
+ClosingParenthesis = { ")" }
+MissingRParen      = { WHITESPACE* ~ &("then " | "else " | "output " | "input " | "trigger " | "constant " | "Type " | "include " | EOI) }
+MissingTerm        = { WHITESPACE* ~ &("then " | "else " | ")" | "output " | "input " | "trigger " | "constant " | "Type " | "include " | EOI) }
+
+// Function call expressions
+CallExpr       = { FunctionSymbol ~ TypeParams? ~ CallArgs }
+FunctionSymbol = _{ Ident }
+TypeParams     = { "<" ~ TypeRef ~ ("," ~ TypeRef)* ~ ">" }
+CallArgs       = { ( "(" ~ ")" ) | ( "(" ~ CallArg ~ ("," ~ CallArg)* ~ ")" ) }
+CallArg        = { (Ident ~ ":")? ~ Expr }
+
+// Prefix (unary) and ternary expressions
+PrefixExpr = { UnaryOperation ~ Term }
+IfThenElse = { "if" ~ Expr ~ "{" ~ Expr ~ "}" ~ "else" ~ "{" ~ Expr ~ "}" }
+
+// Parameter list declarations
+ParamListDecl = _{ "(" ~ ParamList ~ ")" }
+ParamList     = { (ParamItem ~ ("," ~ ParamItem)*)? }
+ParamItem     = { Ident ~ (":" ~ TypeRef)? }
+
+// Identifiers and types
+Ident   = @{ (XID_START | "_") ~ (XID_CONTINUE | "_" | "::" | "'")* }
+TypeRef = { "(" ~ (TypeRef ~ ("," ~ TypeRef)*)? ~ ")" | OptType | Ident | "_" }
+OptType = { Ident ~ "?" }
+
+// Subscript / index bracket
+LBracket       = { "[" }
+ClosingBracket = _{ "]" }
+
+// Lambda expressions
+Lambda       = { LambdaParams ~ "=>" ~ Expr }
+LambdaParams = _{ Ident | "(" ~ ParamList ~ ")" }
+
+// Tuple expressions
+TupleExpr = { "(" ~ (Expr ~ ("," ~ Expr)+)? ~ ")" }
+
+// Quantifier expressions (classic form: forall x in S: body)
+Quantified    = { Quantifier ~ VarBind ~ ("," ~ VarBind)* ~ ":" ~ Expr }
+BindSetA      = { Ident ~ ("," ~ Ident)* }
+BindSetB      = { Ident ~ ("," ~ Ident)* }
+QuantifiedAlt = { Quantifier ~ "[" ~ BindSetA ~ "]" ~ "[" ~ BindSetB ~ "]" ~ (":" ~ Expr | Expr) }
+
+Quantifier = _{ Forall | Exists }
+Forall     = { "forall" | "∀" }
+Exists     = { "exists" | "∃" }
+
+// Variable binding: expr in domain
+VarBind    = { Expr ~ "in" ~ Domain }
+Domain     = _{ DomainPath | DomainList }
+DomainPath = { Expr }
+DomainList = { "[" ~ Expr ~ ("," ~ Expr)* ~ "]" }
+
+// Numeric literals -- integer or floating-point, with optional unit suffix
+// Floating-point uses `("." ~ !Letter)` to disambiguate from method calls;
+// e.g. write `1.0Hz` rather than `1.Hz`
+NumLit = ${ NumVal ~ NumUnit? }
+NumVal = @{ ("+" | "-")? ~ Digit+ ~ (("." ~ !Letter) ~ Digit*)? ~ ("e" ~ ("+" | "-")? ~ Digit+)? }
+
+// String literals (regular and raw)
+StringLiteral    = _{ "\"" ~ StrBody ~ "\"" }
+StrBody          = @{ ("\\\"" | !("\"") ~ ANY)* }
+RawStringLiteral = _{ "r" ~ PUSH("#"*) ~ "\"" ~ RawStrBody ~ "\"" ~ POP }
+RawStrBody       = @{ (!("\"" ~ PEEK) ~ ANY)* }
+
+// Boolean literals
+BooleanLiteral = _{ BoolTrue | BoolFalse }
+BoolTrue  = @{ ("true"   | "⊤")       ~ !(Ident) }
+BoolAlways     = @{ ("always" | "Always")  ~ !(Ident) }
+BoolFalse = @{ ("false"  | "⊥")       ~ !(Ident) }
+
+// Composite literal kinds
+ValueLit = { StringLiteral | RawStringLiteral | NumLit | BooleanLiteral }
+ConstLit  = { StringLiteral | RawStringLiteral | NumLit | BooleanLiteral | TupleLit }
+TupleLit  = { "(" ~ ConstLit ~ ("," ~ ConstLit)+ ~ ")" }
+
+// Primitive token helpers
+IntLit  = @{ Digit+ }
+NumUnit = @{ LETTER+ }
+Letter  = { 'a'..'z' | 'A'..'Z' }
+Digit   = _{ '0'..'9' }
+
+// Whitespace and comments (block and line style)
+WHITESPACE = _{ " " | "\t" | "\r" | "\n" }
+COMMENT    = _{ ("/*" ~ (!"*/" ~ ANY)* ~ "*/") | ("//" ~ (!"\n" ~ ANY)* ~ "\n"?) }

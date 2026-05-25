@@ -1,0 +1,220 @@
+{
+  "claim_surface_checks": {
+    "generated_tex_macros": [
+      "showcase_manifest_highlights.tex",
+      "showcase_manifest_claims.tex"
+    ],
+    "manuscript_headlines": [
+      "paper/main.tex",
+      "paper/sections/abstract.tex"
+    ]
+  },
+  "expected_runs": 446,
+  "family_count": 9,
+  "linear_families": {
+    "burst_sweep": {
+      "control_axis": "burst_size",
+      "control_points": 6,
+      "control_values": [
+        1,
+        2,
+        4,
+        8,
+        12,
+        16
+      ],
+      "expected_control_points": 6,
+      "expected_repetitions_per_point": 3,
+      "plot_file": "showcase_manifest_burst_plot.tsv",
+      "repetitions_per_point": [
+        3
+      ],
+      "runs": 18
+    },
+    "constraint_sweep": {
+      "control_axis": "constraints",
+      "control_points": 12,
+      "control_values": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        24
+      ],
+      "expected_control_points": 12,
+      "expected_repetitions_per_point": 5,
+      "plot_file": "showcase_manifest_constraint_plot.tsv",
+      "repetitions_per_point": [
+        5
+      ],
+      "runs": 60
+    },
+    "history_sweep": {
+      "control_axis": "history_depth",
+      "control_points": 10,
+      "control_values": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "expected_control_points": 10,
+      "expected_repetitions_per_point": 5,
+      "plot_file": "showcase_manifest_history_plot.tsv",
+      "repetitions_per_point": [
+        5
+      ],
+      "runs": 50
+    },
+    "hotset_sweep": {
+      "control_axis": "hotset_size",
+      "control_points": 6,
+      "control_values": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "expected_control_points": 6,
+      "expected_repetitions_per_point": 3,
+      "plot_file": "showcase_manifest_hotset_plot.tsv",
+      "repetitions_per_point": [
+        3
+      ],
+      "runs": 18
+    },
+    "mixed_feature_sweep": {
+      "control_axis": "history_depth",
+      "control_points": 9,
+      "control_values": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "expected_control_points": 9,
+      "expected_repetitions_per_point": 3,
+      "plot_file": "showcase_manifest_mixed_plot.tsv",
+      "repetitions_per_point": [
+        3
+      ],
+      "runs": 27
+    },
+    "object_sweep": {
+      "control_axis": "objects",
+      "control_points": 12,
+      "control_values": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24,
+        32,
+        40,
+        48
+      ],
+      "expected_control_points": 12,
+      "expected_repetitions_per_point": 5,
+      "plot_file": "showcase_manifest_object_plot.tsv",
+      "repetitions_per_point": [
+        5
+      ],
+      "runs": 60
+    },
+    "periodic_sweep": {
+      "control_axis": "periodic_constraints",
+      "control_points": 10,
+      "control_values": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "expected_control_points": 10,
+      "expected_repetitions_per_point": 5,
+      "plot_file": "showcase_manifest_periodic_plot.tsv",
+      "repetitions_per_point": [
+        5
+      ],
+      "runs": 50
+    },
+    "soak_sweep": {
+      "control_axis": "events_requested",
+      "control_points": 8,
+      "control_values": [
+        320,
+        640,
+        960,
+        1600,
+        3200,
+        6400,
+        12800,
+        25600
+      ],
+      "expected_control_points": 8,
+      "expected_repetitions_per_point": 2,
+      "plot_file": "showcase_manifest_soak_plot.tsv",
+      "repetitions_per_point": [
+        2
+      ],
+      "runs": 16
+    }
+  },
+  "manifest_file": "showcase_manifest.tsv",
+  "manifest_sha256": "098f7fcc1894955e0949e1624ca84949b5957a7b91b9474f3f3df6168d117917",
+  "matrix_family": {
+    "control_points": 49,
+    "name": "matrix_sweep",
+    "plot_file": "showcase_manifest_matrix_plot.tsv",
+    "repetitions_per_point": 3,
+    "runs": 147
+  },
+  "paper_facing_files": [
+    "showcase_manifest.tsv",
+    "showcase_manifest_object_plot.tsv",
+    "showcase_manifest_constraint_plot.tsv",
+    "showcase_manifest_history_plot.tsv",
+    "showcase_manifest_periodic_plot.tsv",
+    "showcase_manifest_mixed_plot.tsv",
+    "showcase_manifest_burst_plot.tsv",
+    "showcase_manifest_hotset_plot.tsv",
+    "showcase_manifest_soak_plot.tsv",
+    "showcase_manifest_matrix_plot.tsv",
+    "showcase_manifest_family_summary.tsv",
+    "showcase_manifest_family_summary.md",
+    "showcase_manifest_family_summary.tex",
+    "showcase_manifest_highlights.tex",
+    "showcase_manifest_claims.tex"
+  ],
+  "verified_runs": 446
+}

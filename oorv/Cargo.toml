@@ -1,0 +1,21 @@
+[package]
+name = "oorv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oorv_core = { package = "oorv-core", path = "../core" }
+# CSV input driver (absorbed from former `plugins` crate)
+csv = "1.1.6"
+# Statistics overlay (absorbed from former `plugins` crate)
+crossterm = "0.27.0"
+rust_decimal = "1.36.0"
+clap = { version = "4.0.9", features = [
+    "derive",
+    "cargo",
+    "wrap_help",
+] }
+humantime = "2.0"
+clap_complete = "4.0.2"
+atty = "0.2.14"
+termcolor = "1.4.1"

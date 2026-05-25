@@ -1,0 +1,83 @@
+include "TrafficLight.oorv";
+
+module Car {
+    class Car {
+        signals:
+            FrontWheels front_wheels;
+            BackWheels back_wheels;
+            Float lat;
+            Float lon;
+
+        constraints:
+            front_wheel_alignment {
+                if self.front_wheels.left_wheel.angle != self.front_wheels.right_wheel.angle {
+                    alert! "Front wheel steering angles differ: left={self.front_wheels.left_wheel.angle}, right={self.front_wheels.right_wheel.angle}";
+                }
+            }
+
+            acceleration_spike_check {
+                if abs(self.front_wheels.left_wheel.speed.last(default:0.0) - self.front_wheels.left_wheel.speed.prev(default:60.0)) > 50.0 {
+                    alert! "Unexpected acceleration change detected.";
+                }
+            }
+    }
+
+    class FrontWheels {
+        signals:
+            Wheel left_wheel;
+            Wheel right_wheel;
+    }
+
+    class BackWheels extends FrontWheels {
+
+    }
+
+    class Wheel {
+        signals:
+            Float angle;
+            Float speed;
+    }
+}
+
+world TrafficSystem {
+    use Car;
+    cars: Car[];
+    lights: TrafficLight::Light[];
+
+    constraints:
+        safe_distance_check @0.1s {
+            if exists c1 in cars, c2 in cars:
+                c1 != c2 and
+                is_close(
+                    c1.lat.last(default:0.0),
+                    c1.lon.last(default:0.0),
+                    c2.lat.last(default:0.0),
+                    c2.lon.last(default:0.0),
+                    0.5
+                ) {
+                alert! "Two distinct cars are closer than the safe-distance threshold.";
+            }
+        }
+
+        red_light_violation_check @always {
+            if exists car in cars, light in lights:
+                is_red(light.color.last(default:0)) and
+                car.front_wheels.left_wheel.speed.last(default:0.0) > 0.0 {
+                alert! "A car moved through the intersection while the light was red.";
+            }
+        }
+
+    function is_red(n:Int) -> Bool {
+        // 0:red; 1: green; 2: yellow
+        n == 0
+    }
+    
+    function is_close(x1:Float, y1:Float, x2:Float, y2:Float, threshold:Float) -> Bool {
+        let distance = sqrt((x1 - x2)**2.0 + (y1 - y2)**2.0);
+        distance < threshold
+    }
+
+}
+
+
+

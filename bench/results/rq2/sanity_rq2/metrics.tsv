@@ -1,0 +1,2 @@
+label	objects	constraints	events_requested	events_processed	avg_ms	duration_s	events_per_s	memory_mode	memory_value	memory_note
+sanity_rq2	5	2	50	50	0.209	0.010453	4783.316	none	NA	not_measured
